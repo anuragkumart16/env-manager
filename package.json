@@ -1,0 +1,32 @@
+{
+    "name": "env-manager",
+    "version": "1.0.0",
+    "description": "Uses to manage environment-variables",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/anuragkumart16/env-manager.git"
+    },
+    "keywords": [
+      "env",
+      "variables",
+      "environment",
+      "keys",
+      "key",
+      "apikey"
+    ],
+    "author": "anurag_16",
+    "license": "GPL-3.0 ",
+    "bugs": {
+      "url": "https://github.com/anuragkumart16/env-manager/issues"
+    },
+    "homepage": "https://github.com/anuragkumart16/env-manager#readme",
+    "bin": {
+  "env-manager": "./index.js"
+}
+  }
+  
