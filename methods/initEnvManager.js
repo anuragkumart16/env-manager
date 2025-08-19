@@ -2,9 +2,10 @@ import { mkdirSync, existsSync } from 'node:fs';
 import path from 'node:path';
 import os from 'node:os';
 
-function initEnvManager(args){
-    const homeDir = os.homedir()
-    const envManagerDir = path.join(homeDir, '.envManager')
+function initEnvManager(args,properties){
+    const homeDir = properties.homeDir
+    const envManagerDir = properties.envManagerDir
+    
     if (existsSync(envManagerDir)){
         console.log("Env Manager is already initialized...")
     }else{

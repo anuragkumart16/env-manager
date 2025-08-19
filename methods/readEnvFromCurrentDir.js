@@ -1,7 +1,7 @@
 import { readFileSync,existsSync } from 'node:fs';
 import path from 'node:path';
 
-function readEnvFromCurrentDir(args){
+function readEnvFromCurrentDir(args,properties){
     const currentDir = process.cwd();
     const envFile = path.join(currentDir, '.env');
     if (existsSync(envFile)){
